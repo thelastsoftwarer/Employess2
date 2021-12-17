@@ -1,0 +1,63 @@
+
+
+public class asistan implements akademisyen {
+	String adsoyad,eposta,telefon;
+	public asistan(String adsoyad, String eposta, String telefon) {
+	
+		this.adsoyad = adsoyad;
+		this.eposta = eposta;
+		this.telefon = telefon;
+	}
+	
+	public void giris() {
+		System.out.println(this.adsoyad+" asistan giris yaptı");
+		
+	}
+	public String getAdsoyad() {
+		return adsoyad;
+	}
+
+	public void setAdsoyad(String adsoyad) {
+		this.adsoyad = adsoyad;
+	}
+
+	public String getEposta() {
+		return eposta;
+	}
+
+	public void setEposta(String eposta) {
+		this.eposta = eposta;
+	}
+
+	public String getTelefon() {
+		return telefon;
+	}
+
+	public void setTelefon(String telefon) {
+		this.telefon = telefon;
+	}
+
+
+	
+	public void cikis() {
+		System.out.println(this.adsoyad+" asistan cikis yaptı");
+		
+		
+		
+	}
+	
+	
+	public boolean yemekk(int a) {
+		if(a==3) {
+			System.out.println("yemek yendi");
+		return true;
+		}
+		else {
+			System.out.println("yemek yenmedi");
+			return false;
+			
+		}
+	}
+	
+
+}
