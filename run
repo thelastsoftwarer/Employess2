@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class calistir {
+
+	public static void main(String[] args) {
+		asistan a=new asistan("erkan"+" bicer","erko_101@hotmail.com","545413");
+		int b;
+		Scanner scan=new Scanner(System.in);
+		a.giris();
+		a.cikis();
+		System.out.println("lütfen kaçta yemek yediğini sorguladığınızı yazınız");
+		b=scan.nextInt();
+
+		a.yemekk(b);
+	}
+
+}
