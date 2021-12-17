@@ -1,0 +1,8 @@
+
+public interface   akademisyen {
+	final String a="çü";
+	public void giris();
+	public void cikis();
+	public boolean yemekk(int a);
+
+}
