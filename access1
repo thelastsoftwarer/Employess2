@@ -1,0 +1,5 @@
+public class access1 {
+	protected int hours=4;
+	protected int minute=39;
+
+}
